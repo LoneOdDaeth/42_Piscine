@@ -6,7 +6,7 @@
 /*   By: selsahin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/09 12:24:12 by selsahin          #+#    #+#             */
-/*   Updated: 2022/09/09 12:59:53 by selsahin         ###   ########.fr       */
+/*   Updated: 2022/09/14 17:44:20 by selsahin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ int	main(int argc, char **argv)
 		while (s < argc)
 		{
 			c = 0;
-			while (argv[s][c])
+			while (argv[s][c])	
 				write(1, &argv[s][c++], 1);
-			write(1, "\n", 1);
+            write(1, "\n", 1);
 			s++;
 		}
 	}

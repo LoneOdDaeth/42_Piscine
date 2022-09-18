@@ -6,12 +6,9 @@
 /*   By: selsahin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 12:44:03 by selsahin          #+#    #+#             */
-/*   Updated: 2022/09/04 12:52:00 by selsahin         ###   ########.fr       */
+/*   Updated: 2022/09/18 11:20:46 by selsahin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-#include <stdio.h>
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
@@ -30,12 +27,4 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	}
 	dest[length] = '\0';
 	return (dest);
-}
-
-int	main()
-{
-	char	c[12] = "42 Istanbul";
-	char	s[] = "42 Kocaeli";
-
-	printf("%s", ft_strncat(s, c, 14));
 }

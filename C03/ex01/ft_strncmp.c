@@ -6,12 +6,9 @@
 /*   By: selsahin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 10:38:31 by selsahin          #+#    #+#             */
-/*   Updated: 2022/09/06 11:02:13 by selsahin         ###   ########.fr       */
+/*   Updated: 2022/09/18 11:19:00 by selsahin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-//#include <stdio.h>
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
@@ -28,14 +25,3 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	}
 	return (0);
 }
-/*
-int	main()
-{
-	char	*s1 = "42 Istanbul";
-	char	*s2 = "42 Kocaeli";
-	unsigned int	n;
-
-	n = 4;
-	printf("%d",ft_strncmp(s1, s2, n));
-}
-*/

@@ -6,12 +6,9 @@
 /*   By: selsahin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 02:02:10 by selsahin          #+#    #+#             */
-/*   Updated: 2022/09/06 13:57:44 by selsahin         ###   ########.fr       */
+/*   Updated: 2022/09/18 11:21:55 by selsahin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-//#include <stdio.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -26,12 +23,3 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return (s1[i] - s2[i]);
 }
-/*
-int	main()
-{
-	char	s1[] = "42 Istanbul";
-	char	s2[] = "42 Kocaeli";
-
-	printf("%d", ft_strcmp(s1, s2));
-}
-*/
